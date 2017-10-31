@@ -34,10 +34,16 @@
         background: linear-gradient(to top right, #ff5e62, #ff9966);
     }
 
+    .bg-gradient-multi {
+        background: #ff9966;
+        background: -webkit-linear-gradient(to top right, #ff5e62, #2dbeff);
+        background: linear-gradient(to top right, #ff5e62, #2dbeff);
+    }
+
     .bg-gradient-purple {
         background: #8b69ff;
-        background: -webkit-linear-gradient(to top right, #8b69ff, #57388c);
-        background: linear-gradient(to top right, #8b69ff, #57388c);
+        background: -webkit-linear-gradient(to top right, #ff35a4, #350090);
+        background: linear-gradient(to top right, #ff35a4, #350090);
     }
     .bg-gradient-blue .btn, .bg-gradient-blue .btn {
         color:#fff !important;

@@ -14,7 +14,7 @@
                     <div class="col-md-12" align="center">
                        <div id="options">
                            <?php /* <a href="/marketers" class="btn btn-neutral btn-simple btn-round" style="border:1px solid #fff;">For Marketers</a> */?>
-                           <a class="btn btn-neutral btn-round" href="javascript:void(0)" onclick="scrollToMore()">Learn More</a>
+                           <a class="btn btn-neutral btn-simple btn-round" href="javascript:void(0)" onclick="scrollToMore()">Learn More</a>
                                <?php /* <a href="/journalists" class="btn btn-neutral btn-simple btn-round" style="border:1px solid #fff;">For Journalists</a>*/?>
                        </div>
                     </div>
@@ -99,8 +99,8 @@
             <div class="col-md-12 col-lg-8">
                 <h2 class="title">Ready to get started?</h2>
                 <h5 class="description" style="color:#fff;font-weight:300;margin-bottom:35px;">Get up and running in 5 minutes or less.</h5>
-                <a href="/get-started" class="btn bg-gradient-purple btn-lg" onclick="mixpanel.track('cta');"><i class="now-ui-icons arrows-1_share-66"></i> Get Started</a>
-                <a href="/get-started" class="btn btn-neutral btn-lg" style="background:#fff;color:#222 !important;">View the Docs</a>
+                <a href="/get-started" class="btn btn-neutral btn-lg" onclick="mixpanel.track('cta');"><i class="now-ui-icons arrows-1_share-66"></i> Get Started</a>
+                <a href="/get-started" class="btn btn-neutral btn-simple btn-lg">View the Docs</a>
             </div>
         </div>
     </div>

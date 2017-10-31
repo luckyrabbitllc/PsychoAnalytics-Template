@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg bg-white fixed-top navbar-transparent " color-on-scroll="100">
     <div class="container">
         <div class="navbar-translate">
-            <a class="navbar-brand" href="/" rel="tooltip" title="A CMS designed for startups." data-placement="bottom">
+            <a class="navbar-brand" href="/" rel="tooltip" title="PsychoAnalyze any website." data-placement="bottom">
                 <img src="https://psychoanalytics.s3-us-west-1.amazonaws.com/logos/Gz47KYLO8vAzxLzGTYyuSprnodAqU60vq9jmQx94.png" alt="Logo Icon" style="max-width:40px;"> PsychoAnalytics
             </a>
             <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,6 +20,11 @@
             </div>
             <ul class="navbar-nav">
                 <li class="nav-item">
+                    <a class="nav-link" href="/">
+                        <p>About</p>
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="/features">
                         <p>Features</p>
                     </a>
@@ -35,7 +40,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn btn-neutral" id="nav-cta" href="https://app.psychoanalytics.io" style="color:#0f76ff;box-shadow: 0px 10px 30px rgba(0,0,0,0.1);" onclick="mixpanel.track('nav-cta');" target="_blank">
+                    <a class="nav-link btn btn-secondary-outline" id="nav-cta" href="/getting-started" style="color:#fff !important;border:none !important;" onclick="mixpanel.track('nav-cta');">
                         <i class="now-ui-icons arrows-1_share-66"></i>
                         <p>Get Started</p>
                     </a>
