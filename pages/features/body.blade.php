@@ -39,7 +39,7 @@
                     <div class="col-md-6">
                         <div>
                             <h2 class="title" style="color:#111;text-align:left;"><br>The precision of Mixpanel.</h2>
-                            <h5 class="description" style="text-align:left;font-weight:300;color:#111;">Create your own machine learning powered analytics app. Simply create a <b>custom module on MonkeyLearn</b> and paste the URL in your settings.</h5>
+                            <h5 class="description" style="text-align:left;font-weight:300;color:#111;">All the <b>topics, keywords, and sentiments</b> that your visitors find most appealing will show up directly in your Mixpanel dashboard, so you can see how they impact your business's performance.</h5>
                         </div>
                     </div>
                     <div class="col-md-6">

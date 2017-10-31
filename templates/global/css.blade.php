@@ -45,11 +45,11 @@
         background: -webkit-linear-gradient(to top right, #ff35a4, #350090);
         background: linear-gradient(to top right, #ff35a4, #350090);
     }
+
     .bg-gradient-blue .btn, .bg-gradient-blue .btn {
         color:#fff !important;
         border-color: #fff !important;
     }
-
 
     .navbar-transparent #nav-cta {
         background:#fff;
