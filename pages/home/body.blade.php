@@ -12,46 +12,47 @@
                         </h2>
                     </div>
                     <div class="col-md-12" align="center">
-                       <div>
-                           <a href="#" class="btn btn-neutral btn-link btn-round" style="border:1px solid #fff; opacity:0.6;">For Marketers</a>
-                           <a class="btn btn-neutral btn-round" href="javascript:void(0)" onclick="scrollToMore()">For Startups</a>
-                           <a href="#" class="btn btn-neutral btn-link btn-round" style="border:1px solid #fff; opacity:0.6;">For Journalists</a>
+                       <div id="options">
+                           <?php /* <a href="/marketers" class="btn btn-neutral btn-simple btn-round" style="border:1px solid #fff;">For Marketers</a> */?>
+                           <a class="btn btn-neutral btn-round" href="javascript:void(0)" onclick="scrollToMore()">Learn More</a>
+                               <?php /* <a href="/journalists" class="btn btn-neutral btn-simple btn-round" style="border:1px solid #fff;">For Journalists</a>*/?>
                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="section" id="more">
+    <div class="section"  id="more">
         <div class="container text-center">
             <div class="row justify-content-md-center">
-                <div class="col-md-6">
-                    <div>
-                    <h2 class="title">Analyze your content.</h2>
-                    <h5 class="description" style="text-align:left;font-weight:300;color:#111;">Track <strong>what your audience likes about your content</strong> in real time. Break it down by topic, emotion, and more. Stop wasting time and resources creating content that doesn't work. Find what does and focus on that.</h5>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <img src="https://psychoanalytics.s3-us-west-1.amazonaws.com/pages/psychoanalytics/ASrvIgnSWKeYEU4RKhLfOCJsUTvdrQ01LHcpqegG.png" alt="Content Trends" class="img-raised rounded" />
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section">
-        <div class="container text-center">
-            <div class="row justify-content-md-center">
-                <div class="col-md-6">
-                    <img src="https://psychoanalytics.s3-us-west-1.amazonaws.com/pages/psychoanalytics/asexd9JlLeC3C2VvgHGtuilLGrxdm8tXaVSU0QB5.png" alt="Market Research" class="img-raised rounded" />
-                </div>
                 <div class="col-md-6">
                     <div>
                         <h2 class="title">Analyze your competitors.</h2>
                         <h5 class="description" style="text-align:left;font-weight:300;color:#111;">Get insights into your competitors' strategy with one click. Simply input a URL and PsychoAnalytics will use <b>Natural Language Processing</b> to extract opinions, personality types, estimated age range, values, emotions, and more.</h5>
                     </div>
                 </div>
+                <div class="col-md-6">
+                    <img src="https://psychoanalytics.s3-us-west-1.amazonaws.com/pages/psychoanalytics/asexd9JlLeC3C2VvgHGtuilLGrxdm8tXaVSU0QB5.png" alt="Market Research" class="img-raised rounded" />
+                </div>
             </div>
         </div>
     </div>
+    <div class="section" id="more" style="background:#f5f5f5;">
+        <div class="container text-center">
+            <div class="row justify-content-md-center">
+                <div class="col-md-6">
+                    <img src="https://psychoanalytics.s3-us-west-1.amazonaws.com/pages/psychoanalytics/ASrvIgnSWKeYEU4RKhLfOCJsUTvdrQ01LHcpqegG.png" alt="Content Trends" class="img-raised rounded" />
+                </div>
+                <div class="col-md-6">
+                    <div>
+                    <h2 class="title">Analyze your content.</h2>
+                    <h5 class="description" style="text-align:left;font-weight:300;color:#111;">Track <strong>what your audience likes about your content</strong> in real time. Break it down by topic, emotion, and more. Stop wasting time and resources creating content that doesn't work. Find what does and focus on that.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="section" id="more">
         <div class="container text-center">
             <div class="row justify-content-md-center">
