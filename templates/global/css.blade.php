@@ -122,7 +122,6 @@
             text-align: center !important;
         }
         #nav-cta {
-            background:royalblue !important;
             color:#fff !important;
         }
     }
@@ -135,7 +134,6 @@
             color: #222 !important;
         }
         .navbar-transparent #nav-cta {
-            background:royalblue !important;
             color:#fff !important;
         }
         #navigation {
@@ -143,10 +141,19 @@
         }
     }
     #nav-cta {
-        background:royalblue;
+        background:#7777dd!important;
         color:#fff !important;
     }
     #articles-index .page-header:before {
         background: none !important;
     }
+    #particles-js{
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        background-image: url("");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%; }
 </style>
