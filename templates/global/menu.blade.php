@@ -40,7 +40,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn btn-secondary-outline" id="nav-cta" href="/getting-started" style="color:#fff !important;border:none !important;" onclick="mixpanel.track('nav-cta');">
+                    <a class="nav-link btn btn-secondary-outline" id="nav-cta" href="https://app.psychoanalytics.io" target="_blank" style="color:#fff !important;border:none !important;" onclick="mixpanel.track('nav-cta');">
                         <i class="now-ui-icons arrows-1_share-66"></i>
                         <p>Get Started</p>
                     </a>
