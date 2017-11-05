@@ -6,8 +6,8 @@
   "image": "https://psychoanalytics.s3-us-west-1.amazonaws.com/pages/products/ejinjFr2xPKaq27lB4QCRkDHdw45ayHjYLW4YMgM.jpeg",
   "sections": {
     "Heading": {
-      "title": "Feature 1",
-      "slug": "Feature1",
+      "title": "Heading",
+      "slug": "heading",
       "fields": {
         "headline": {
           "type": "text",
@@ -23,7 +23,7 @@
     },
     "Feature1": {
       "title": "Feature 1",
-      "slug": "Feature1",
+      "slug": "feature-1",
       "fields": {
         "headline": {
           "type": "text",
@@ -44,7 +44,7 @@
     },
     "Feature2": {
       "title": "Feature 2",
-      "slug": "Feature2",
+      "slug": "feature-2",
       "fields": {
         "headline": {
           "type": "text",
@@ -65,7 +65,7 @@
     },
     "Feature3": {
       "title": "Feature 3",
-      "slug": "Feature3",
+      "slug": "feature-3",
       "fields": {
         "headline": {
           "type": "text",
