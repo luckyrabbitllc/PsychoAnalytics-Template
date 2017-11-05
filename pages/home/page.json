@@ -6,23 +6,23 @@
   "image": "https://psychoanalytics.s3-us-west-1.amazonaws.com/pages/products/ejinjFr2xPKaq27lB4QCRkDHdw45ayHjYLW4YMgM.jpeg",
   "sections": {
     "heading": {
-      "headline": "text",
-      "button": "text"
+      "headline": {"type": "text", "description" : "A one-line summary of the product at the top of the page.", "placeholder": "Write a headline."},
+      "button": {"type": "text", "description" : "A one or two-word command.", "placeholder": "Example: Learn More"}
     },
     "feature1": {
-      "headline" : "text",
-      "message" : "textarea",
-      "image": "url"
+      "headline" : {"type": "text", "description" : "A short summary of the feature's benefit.", "placeholder": "Write a headline."},
+      "message" : {"type": "textarea", "description" : "One or two lines about the benefit.", "placeholder": "Write a headline."},
+      "image": {"type": "text", "description" : "A relevant image.", "placeholder": "http://..."}
     },
     "feature2": {
-      "headline" : "text",
-      "message" : "textarea",
-      "image": "url"
+      "headline" : {"type": "text", "description" : "A short summary of the feature's benefit.", "placeholder": "Write a headline."},
+      "message" : {"type": "textarea", "description" : "One or two lines about the benefit.", "placeholder": "Write a headline."},
+      "image": {"type": "text", "description" : "A relevant image.", "placeholder": "http://..."}
     },
     "feature3": {
-      "headline" : "text",
-      "message" : "textarea",
-      "image": "url"
+      "headline" : {"type": "text", "description" : "A short summary of the feature's benefit.", "placeholder": "Write a headline."},
+      "message" : {"type": "textarea", "description" : "One or two lines about the benefit.", "placeholder": "Write a headline."},
+      "image": {"type": "text", "description" : "A relevant image.", "placeholder": "http://..."}
     }
   }
 }
