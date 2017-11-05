@@ -33,7 +33,7 @@
         "message": {
           "type": "textarea",
           "description": "One or two lines about the benefit.",
-          "placeholder": "Write a headline."
+          "placeholder": "Write a message."
         },
         "image": {
           "type": "text",
@@ -54,7 +54,7 @@
         "message": {
           "type": "textarea",
           "description": "One or two lines about the benefit.",
-          "placeholder": "Write a headline."
+          "placeholder": "Write a message."
         },
         "image": {
           "type": "text",
@@ -75,7 +75,7 @@
         "message": {
           "type": "textarea",
           "description": "One or two lines about the benefit.",
-          "placeholder": "Write a headline."
+          "placeholder": "Write a message."
         },
         "image": {
           "type": "text",
