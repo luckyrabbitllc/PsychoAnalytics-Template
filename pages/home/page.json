@@ -6,23 +6,83 @@
   "image": "https://psychoanalytics.s3-us-west-1.amazonaws.com/pages/products/ejinjFr2xPKaq27lB4QCRkDHdw45ayHjYLW4YMgM.jpeg",
   "sections": {
     "Heading": {
-      "headline": {"type": "text", "description" : "A one-line summary of the product at the top of the page.", "placeholder": "Write a headline."},
-      "button": {"type": "text", "description" : "A one or two-word command.", "placeholder": "Example: Learn More"}
+      "title": "Feature 1",
+      "slug": "Feature1",
+      "fields": {
+        "headline": {
+          "type": "text",
+          "description": "A one-line summary of the product at the top of the page.",
+          "placeholder": "Write a headline."
+        },
+        "button": {
+          "type": "text",
+          "description": "A one or two-word command.",
+          "placeholder": "Example: Learn More"
+        }
+      }
     },
     "Feature1": {
-      "headline" : {"type": "text", "description" : "A short summary of the feature's benefit.", "placeholder": "Write a headline."},
-      "message" : {"type": "textarea", "description" : "One or two lines about the benefit.", "placeholder": "Write a headline."},
-      "image": {"type": "text", "description" : "A relevant image.", "placeholder": "http://..."}
+      "title": "Feature 1",
+      "slug": "Feature1",
+      "fields": {
+        "headline": {
+          "type": "text",
+          "description": "A short summary of the feature's benefit.",
+          "placeholder": "Write a headline."
+        },
+        "message": {
+          "type": "textarea",
+          "description": "One or two lines about the benefit.",
+          "placeholder": "Write a headline."
+        },
+        "image": {
+          "type": "text",
+          "description": "A relevant image.",
+          "placeholder": "http://..."
+        }
+      }
     },
     "Feature2": {
-      "headline" : {"type": "text", "description" : "A short summary of the feature's benefit.", "placeholder": "Write a headline."},
-      "message" : {"type": "textarea", "description" : "One or two lines about the benefit.", "placeholder": "Write a headline."},
-      "image": {"type": "text", "description" : "A relevant image.", "placeholder": "http://..."}
+      "title": "Feature 2",
+      "slug": "Feature2",
+      "fields": {
+        "headline": {
+          "type": "text",
+          "description": "A short summary of the feature's benefit.",
+          "placeholder": "Write a headline."
+        },
+        "message": {
+          "type": "textarea",
+          "description": "One or two lines about the benefit.",
+          "placeholder": "Write a headline."
+        },
+        "image": {
+          "type": "text",
+          "description": "A relevant image.",
+          "placeholder": "http://..."
+        }
+      }
     },
     "Feature3": {
-      "headline" : {"type": "text", "description" : "A short summary of the feature's benefit.", "placeholder": "Write a headline."},
-      "message" : {"type": "textarea", "description" : "One or two lines about the benefit.", "placeholder": "Write a headline."},
-      "image": {"type": "text", "description" : "A relevant image.", "placeholder": "http://..."}
+      "title": "Feature 3",
+      "slug": "Feature3",
+      "fields": {
+        "headline": {
+          "type": "text",
+          "description": "A short summary of the feature's benefit.",
+          "placeholder": "Write a headline."
+        },
+        "message": {
+          "type": "textarea",
+          "description": "One or two lines about the benefit.",
+          "placeholder": "Write a headline."
+        },
+        "image": {
+          "type": "text",
+          "description": "A relevant image.",
+          "placeholder": "http://..."
+        }
+      }
     }
   }
 }

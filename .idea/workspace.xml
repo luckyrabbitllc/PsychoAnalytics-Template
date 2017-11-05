@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c171d6e4-e67c-494c-955d-05175017d509" name="Default" comment="" />
+    <list default="true" id="c171d6e4-e67c-494c-955d-05175017d509" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/home/page.json" afterPath="$PROJECT_DIR$/pages/home/page.json" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +20,8 @@
       <file leaf-file-name="page.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/home/page.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="315">
+              <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -200,12 +202,12 @@
       <workItem from="1509425349506" duration="1241000" />
       <workItem from="1509515156765" duration="943000" />
       <workItem from="1509613838929" duration="867000" />
-      <workItem from="1509870495357" duration="5209000" />
+      <workItem from="1509870495357" duration="5864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8260000" />
+    <option name="totallyTimeSpent" value="8915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1412" height="873" extended-state="1" />
@@ -348,8 +350,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/home/page.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="315">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding />
         </state>
       </provider>
