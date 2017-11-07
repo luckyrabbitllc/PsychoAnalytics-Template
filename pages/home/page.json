@@ -83,6 +83,17 @@
           "placeholder": "http://..."
         }
       }
+    },
+    "Settings": {
+      "title": "Settings",
+      "slug": "settings",
+      "fields": {
+        "slug": {
+          "type": "text",
+          "description": "A unique slug for tracking this variation.",
+          "placeholder": "Name it clearly."
+        }
+      }
     }
   }
 }
