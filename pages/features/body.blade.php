@@ -6,7 +6,7 @@
             <div class="container text-center">
                 <div class="row justify-content-md-center" style="margin-top:25px;">
                     <div class="col-md-7">
-                        <div id="page-heading">
+                        <div id="feature1">
                             <feature1
                                     v-for="item in items"
                                     v-bind:page="item"

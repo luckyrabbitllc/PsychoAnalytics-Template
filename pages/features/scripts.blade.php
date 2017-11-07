@@ -8,7 +8,7 @@
 
     var page = null;
     var feature1 = new Vue({
-        el: '#page-heading',
+        el: '#feature1',
         data: {
             items: null
         },
@@ -21,7 +21,7 @@
             });
         }
     });
-    
+
     Vue.component('feature2', {
         props: ['page'],
         template: '<div><h2 style="margin-bottom:5px;">@{{ page.json.feature2.headline }}</h2><h5 class="description" style="text-align:left;color:#000;">@{{ page.json.feature2.message }}</h5></div>'

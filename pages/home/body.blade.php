@@ -26,9 +26,13 @@
         <div class="container text-center">
             <div class="row justify-content-md-center">
                 <div class="col-md-6">
-                    <div>
-                        <h2 class="title">Analyze your competitors.</h2>
-                        <h5 class="description" style="text-align:left;font-weight:300;color:#111;">Get insights into your competitors' strategy with one click. Simply input a URL and PsychoAnalytics will use <b>Natural Language Processing</b> to extract opinions, personality types, estimated age range, values, emotions, and more.</h5>
+                    <div id="feature1">
+                        <feature1
+                                v-for="item in items"
+                                v-bind:page="item"
+                                v-bind:key="item.id"
+                                v-bind:href="item.slug">
+                        </feature1>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -44,9 +48,13 @@
                     <img src="https://psychoanalytics.s3-us-west-1.amazonaws.com/pages/psychoanalytics/ASrvIgnSWKeYEU4RKhLfOCJsUTvdrQ01LHcpqegG.png" alt="Content Trends" class="img-raised rounded" />
                 </div>
                 <div class="col-md-6">
-                    <div>
-                    <h2 class="title">Analyze your content.</h2>
-                    <h5 class="description" style="text-align:left;font-weight:300;color:#111;">Track <strong>what your audience likes about your content</strong> in real time. Break it down by topic, emotion, and more. Stop wasting time and resources creating content that doesn't work. Find what does and focus on that.</h5>
+                    <div id="feature2" style="margin-top:25px;">
+                        <feature2
+                                v-for="item in items"
+                                v-bind:page="item"
+                                v-bind:key="item.id"
+                                v-bind:href="item.slug">
+                        </feature2>
                     </div>
                 </div>
             </div>
@@ -57,11 +65,13 @@
         <div class="container text-center">
             <div class="row justify-content-md-center">
                 <div class="col-md-6">
-                    <div>
-                        <h2 class="title">Analyze your customers.</h2>
-                        <h5 class="description" style="text-align:left;font-weight:300;color:#111;">Are your customers more motivated by fear or ambition?
-                            Do they respond better to intellectual reasoning, or an appeal to emotion?
-                            PsychoAnalytics helps you identify <b>what inspires each individual customer</b> to action.</h5>
+                    <div id="feature3"  style="margin-top:25px;">
+                        <feature3
+                                v-for="item in items"
+                                v-bind:page="item"
+                                v-bind:key="item.id"
+                                v-bind:href="item.slug">
+                        </feature3>
                     </div>
                 </div>
                 <div class="col-md-6">
