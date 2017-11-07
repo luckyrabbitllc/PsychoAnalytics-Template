@@ -3,7 +3,7 @@
 
     Vue.component('feature1', {
         props: ['page'],
-        template: '<div><h2 style="margin-top:25px;">@{{ page.json.feature1.headline }}</h2><h5 class="description" style="text-align:left;">@{{ page.json.feature1.message }}</h5></div>'
+        template: '<div><h2 style="margin-top:25px;">@{{ page.json.feature1.headline }}</h2><h5 class="description" style="text-align:left;color:#000;">@{{ page.json.feature1.message }}</h5></div>'
     });
 
     var page = null;
