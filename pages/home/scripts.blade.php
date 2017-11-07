@@ -14,7 +14,7 @@
         },
         created: function () {
             var _this = this;
-            $.getJSON('http://localhost:8000/api/page/' + slug + '/random', function (json) {
+            $.getJSON('/api/page/' + slug + '/random', function (json) {
                 _this.items = {"items": json};
                 page = {"items": json};
                 console.log(json);
@@ -33,7 +33,7 @@
         },
         created: function () {
             var _this = this;
-            $.getJSON('http://localhost:8000/api/page/' + slug + '/random', function (json) {
+            $.getJSON('/api/page/' + slug + '/random', function (json) {
                 _this.items = {"items": json};
                 console.log(json);
             });
@@ -51,7 +51,7 @@
         },
         created: function () {
             var _this = this;
-            $.getJSON('http://localhost:8000/api/page/' + slug + '/random', function (json) {
+            $.getJSON('/api/page/' + slug + '/random', function (json) {
                 _this.items = {"items": json};
                 console.log(json);
             });
