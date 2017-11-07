@@ -84,9 +84,9 @@
         }
       }
     },
-    "Settings": {
-      "title": "Settings",
-      "slug": "settings",
+    "Meta": {
+      "title": "Meta",
+      "slug": "meta",
       "fields": {
         "slug": {
           "type": "text",
