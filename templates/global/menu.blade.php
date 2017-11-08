@@ -41,7 +41,7 @@
                 </li>
                 <?php if(\Auth::user() !== null && \Auth::user()->role()->name == 'admin'){  ?>
                 <li class="nav-item">
-                    <a class="nav-link btn btn-neutral btn-simple" href="/app">
+                    <a class="nav-link" href="/app">
                         <p>Admin</p>
                     </a>
                 </li>
