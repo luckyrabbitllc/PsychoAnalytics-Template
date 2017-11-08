@@ -1,6 +1,10 @@
 <script>
     var slug = /[^/]*$/.exec(window.location)[0];
 
+    var ts = new Date().getTime();
+    var data = {_: ts};
+
+
     Vue.component('feature1', {
         props: ['page'],
         template: '<div><h2 style="color:#fff;margin-top:25px;">@{{ page.json.feature1.headline }}</h2><h5 class="description" style="color:#fff;text-align:left;">@{{ page.json.feature1.message }}</h5></div>'
@@ -14,7 +18,7 @@
         },
         created: function () {
             var _this = this;
-            $.getJSON('/api/page/' + slug + '/random', function (json) {
+            $.getJSON('/api/page/' + slug + '/random', data, function (json) {
                 _this.items = {"items": json};
                 page = {"items": json};
                 console.log(json);
@@ -33,7 +37,7 @@
         },
         created: function () {
             var _this = this;
-            $.getJSON('/api/page/' + slug + '/random', function (json) {
+            $.getJSON('/api/page/' + slug + '/random', data, function (json) {
                 _this.items = {"items": json};
                 console.log(json);
             });
@@ -51,7 +55,7 @@
         },
         created: function () {
             var _this = this;
-            $.getJSON('/api/page/' + slug + '/random', function (json) {
+            $.getJSON('/api/page/' + slug + '/random', data, function (json) {
                 _this.items = {"items": json};
                 console.log(json);
             });
