@@ -39,7 +39,14 @@
                         <p>Help & Documentation</p>
                     </a>
                 </li>
+                <?php if(\Auth::user() && \Auth::user()->role()->name == 'admin');{  ?>
                 <li class="nav-item">
+                    <a class="nav-link" href="/app">
+                        <p>Admin</p>
+                    </a>
+                </li>
+                <?php } ?>
+                 <li class="nav-item">
                     <a class="nav-link btn btn-secondary-outline" id="nav-cta" href="https://app.psychoanalytics.io" target="_blank" style="color:#fff !important;border:none !important;" onclick="mixpanel.track('nav-cta');">
                         <i class="now-ui-icons arrows-1_share-66"></i>
                         <p>Get Started</p>
