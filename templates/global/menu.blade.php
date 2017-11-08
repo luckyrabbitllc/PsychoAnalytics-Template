@@ -39,7 +39,7 @@
                         <p>Help & Documentation</p>
                     </a>
                 </li>
-                <?php if(\Auth::user() && \Auth::user()->role()->name == 'admin');{  ?>
+                <?php if(\Auth::user() !== null && \Auth::user()->role()->name == 'admin'){  ?>
                 <li class="nav-item">
                     <a class="nav-link" href="/app">
                         <p>Admin</p>
