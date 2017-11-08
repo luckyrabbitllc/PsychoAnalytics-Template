@@ -7,7 +7,7 @@
             <div class="container text-center">
                 <div class="row justify-content-md-center"  align="center">
                     <div class="col-md-12" style="margin-bottom:0px;margin-top:25px;">
-                        <h2 class="title" style="width:100%;color:#fff;margin-bottom: 0px;">
+                        <h2 class="title" style="width:100%;color:#fff;">
                             Psycho-analyze your <div id="content-1">customers.</div><div id="content-2">content.</div><div id="content-3">competitors.</div>
                         </h2>
                     </div>
