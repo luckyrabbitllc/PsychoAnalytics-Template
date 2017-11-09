@@ -27,8 +27,18 @@
             var _this = this;
             $.getJSON('/api/page/' + slug + '/random', function (json) {
                 _this.items = {"items": json};
-                page = {"items": json};
+                page = json.slug;
+                variation = json.json.meta.slug;
+                analyticsEvent(page, variation);
+                //console.log([page, variation]);
             });
         }
     });
+
+    function analyticsEvent(page, variation){
+        mixpanel.track("content displayed", {
+            "page": page,
+            "variation": variation
+        });
+    }
 </script>
