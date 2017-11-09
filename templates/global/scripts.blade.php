@@ -61,7 +61,7 @@
     mixpanel.init("c3af8ab4b008e22adf4772978aca66ec");
 
     function clickEvent(id, name, title, url, type, src, text){
-        mixpanel.track("content displayed", {
+        mixpanel.track("click", {
             "id": id,
             "name": name,
             "title": title,
