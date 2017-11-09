@@ -29,13 +29,12 @@
                 _this.items = {"items": json};
                 page = json.slug;
                 variation = json.json.meta.slug;
-                analyticsEvent(page, variation);
-                //console.log([page, variation]);
+                contentEvent(page, variation);
             });
         }
     });
 
-    function analyticsEvent(page, variation){
+    function contentEvent(page, variation){
         mixpanel.track("content displayed", {
             "page": page,
             "variation": variation

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c171d6e4-e67c-494c-955d-05175017d509" name="Default" comment="" />
+    <list default="true" id="c171d6e4-e67c-494c-955d-05175017d509" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/features/scripts.blade.php" afterPath="$PROJECT_DIR$/pages/features/scripts.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/global/scripts.blade.php" afterPath="$PROJECT_DIR$/templates/global/scripts.blade.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,33 +23,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="555">
               <caret line="87" column="13" lean-forward="false" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-              <folding>
-                <marker date="1510189377000" expanded="true" signature="709:1279" ph="{&quot;title&quot;: &quot;Feature 1&quot;...}" />
-                <marker date="1510189377000" expanded="true" signature="781:1273" ph="{...}" />
-                <marker date="1510189377000" expanded="true" signature="803:955" ph="{&quot;type&quot;: &quot;text&quot;...}" />
-                <marker date="1510189377000" expanded="true" signature="976:1125" ph="{&quot;type&quot;: &quot;textarea&quot;...}" />
-                <marker date="1510189377000" expanded="true" signature="1144:1265" ph="{&quot;type&quot;: &quot;text&quot;...}" />
-                <marker date="1510189377000" expanded="true" signature="1297:1867" ph="{&quot;title&quot;: &quot;Feature 2&quot;...}" />
-                <marker date="1510189377000" expanded="true" signature="1369:1861" ph="{...}" />
-                <marker date="1510189377000" expanded="true" signature="1391:1543" ph="{&quot;type&quot;: &quot;text&quot;...}" />
-                <marker date="1510189377000" expanded="true" signature="1564:1713" ph="{&quot;type&quot;: &quot;textarea&quot;...}" />
-                <marker date="1510189377000" expanded="true" signature="1732:1853" ph="{&quot;type&quot;: &quot;text&quot;...}" />
-                <marker date="1510189377000" expanded="true" signature="1885:2455" ph="{&quot;title&quot;: &quot;Feature 3&quot;...}" />
-                <marker date="1510189377000" expanded="true" signature="1957:2449" ph="{...}" />
-                <marker date="1510189377000" expanded="true" signature="1979:2131" ph="{&quot;type&quot;: &quot;text&quot;...}" />
-                <marker date="1510189377000" expanded="true" signature="2152:2301" ph="{&quot;type&quot;: &quot;textarea&quot;...}" />
-                <marker date="1510189377000" expanded="true" signature="2320:2441" ph="{&quot;type&quot;: &quot;text&quot;...}" />
-                <marker date="1510189377000" expanded="true" signature="2469:2716" ph="{&quot;title&quot;: &quot;Meta&quot;...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scripts.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/home/scripts.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -55,35 +31,19 @@
       <file leaf-file-name="scripts.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/features/scripts.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            <state relative-caret-position="465">
+              <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/global/menu.blade.php">
+      <file leaf-file-name="scripts.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/global/scripts.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="59" column="19" lean-forward="false" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#li#5;n#ul#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="body.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/home/body.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="485">
+              <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,9 +60,10 @@
         <option value="$PROJECT_DIR$/pages/features/css.blade.php" />
         <option value="$PROJECT_DIR$/theme.json" />
         <option value="$PROJECT_DIR$/pages/home/page.json" />
-        <option value="$PROJECT_DIR$/pages/features/scripts.blade.php" />
         <option value="$PROJECT_DIR$/templates/global/menu.blade.php" />
         <option value="$PROJECT_DIR$/pages/home/body.blade.php" />
+        <option value="$PROJECT_DIR$/pages/features/scripts.blade.php" />
+        <option value="$PROJECT_DIR$/templates/global/scripts.blade.php" />
       </list>
     </option>
   </component>
@@ -207,7 +168,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
+              <option name="myItemId" value="features" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -298,15 +259,15 @@
       <workItem from="1509515156765" duration="943000" />
       <workItem from="1509613838929" duration="867000" />
       <workItem from="1509870495357" duration="6648000" />
-      <workItem from="1510021060972" duration="3727000" />
+      <workItem from="1510021060972" duration="4281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13426000" />
+    <option name="totallyTimeSpent" value="13980000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="873" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25894135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -441,44 +402,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/home/page.json">
+    <entry file="file://$PROJECT_DIR$/pages/home/body.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="87" column="13" lean-forward="false" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+        <state relative-caret-position="-700">
+          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           <folding>
-            <marker date="1510189377000" expanded="true" signature="709:1279" ph="{&quot;title&quot;: &quot;Feature 1&quot;...}" />
-            <marker date="1510189377000" expanded="true" signature="781:1273" ph="{...}" />
-            <marker date="1510189377000" expanded="true" signature="803:955" ph="{&quot;type&quot;: &quot;text&quot;...}" />
-            <marker date="1510189377000" expanded="true" signature="976:1125" ph="{&quot;type&quot;: &quot;textarea&quot;...}" />
-            <marker date="1510189377000" expanded="true" signature="1144:1265" ph="{&quot;type&quot;: &quot;text&quot;...}" />
-            <marker date="1510189377000" expanded="true" signature="1297:1867" ph="{&quot;title&quot;: &quot;Feature 2&quot;...}" />
-            <marker date="1510189377000" expanded="true" signature="1369:1861" ph="{...}" />
-            <marker date="1510189377000" expanded="true" signature="1391:1543" ph="{&quot;type&quot;: &quot;text&quot;...}" />
-            <marker date="1510189377000" expanded="true" signature="1564:1713" ph="{&quot;type&quot;: &quot;textarea&quot;...}" />
-            <marker date="1510189377000" expanded="true" signature="1732:1853" ph="{&quot;type&quot;: &quot;text&quot;...}" />
-            <marker date="1510189377000" expanded="true" signature="1885:2455" ph="{&quot;title&quot;: &quot;Feature 3&quot;...}" />
-            <marker date="1510189377000" expanded="true" signature="1957:2449" ph="{...}" />
-            <marker date="1510189377000" expanded="true" signature="1979:2131" ph="{&quot;type&quot;: &quot;text&quot;...}" />
-            <marker date="1510189377000" expanded="true" signature="2152:2301" ph="{&quot;type&quot;: &quot;textarea&quot;...}" />
-            <marker date="1510189377000" expanded="true" signature="2320:2441" ph="{&quot;type&quot;: &quot;text&quot;...}" />
-            <marker date="1510189377000" expanded="true" signature="2469:2716" ph="{&quot;title&quot;: &quot;Meta&quot;...}" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/home/scripts.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/features/scripts.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="43" column="9" lean-forward="false" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -492,15 +424,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/home/body.blade.php">
+    <entry file="file://$PROJECT_DIR$/pages/home/scripts.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#body#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="510">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/home/page.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="87" column="13" lean-forward="false" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/features/scripts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/global/scripts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
