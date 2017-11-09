@@ -5,6 +5,22 @@
   "description": "A Startup Engine theme for PsychoAnalytics.io",
   "image": "https://psychoanalytics.s3-us-west-1.amazonaws.com/pages/products/ejinjFr2xPKaq27lB4QCRkDHdw45ayHjYLW4YMgM.jpeg",
   "sections": {
+    "Heading": {
+      "title": "Heading",
+      "slug": "heading",
+      "fields": {
+        "headline": {
+          "type": "text",
+          "description": "A short summary of the page.",
+          "placeholder": "Write a headline."
+        },
+        "button": {
+          "type": "text",
+          "description": "A short call to action phrase.",
+          "placeholder": "Learn More"
+        }
+      }
+    },
     "Feature1": {
       "title": "Feature 1",
       "slug": "feature1",
