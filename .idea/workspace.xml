@@ -2,42 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c171d6e4-e67c-494c-955d-05175017d509" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/articles/body.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/articles/css.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/articles/scripts.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/browse/body.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/browse/css.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/browse/scripts.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/features/body.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/features/css.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/features/page.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/features/scripts.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/help/body.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/help/css.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/help/header.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/home/body.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/home/css.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/home/page.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/home/scripts.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/pricing/body.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/pricing/css.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/search/body.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/search/css.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/search/header.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/search/scripts.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/global/comments.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/global/css.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/global/footer.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/global/header.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/global/menu.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/global/scripts.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/help/footer.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/help/header.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/post/footer.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/post/header.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/search/footer.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/search/header.blade.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/theme.json" afterPath="$PROJECT_DIR$/startup.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,8 +53,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/theme.json">
+      <file leaf-file-name="startup.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/startup.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
@@ -298,12 +263,12 @@
       <workItem from="1509613838929" duration="867000" />
       <workItem from="1509870495357" duration="6648000" />
       <workItem from="1510021060972" duration="4428000" />
-      <workItem from="1517254636895" duration="9229000" />
+      <workItem from="1517254636895" duration="9382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23356000" />
+    <option name="totallyTimeSpent" value="23509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -366,7 +331,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/global/menu.blade.php" />
     <entry file="file://$PROJECT_DIR$/pages/articles/body.blade.php" />
-    <entry file="file://$PROJECT_DIR$/theme.json">
+    <entry file="file://$PROJECT_DIR$/startup.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -438,7 +403,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/theme.json">
+    <entry file="file://$PROJECT_DIR$/startup.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
