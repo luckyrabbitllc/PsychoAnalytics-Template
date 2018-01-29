@@ -4,5 +4,6 @@
   "version": "0.1",
   "description": "A Startup Engine theme for PsychoAnalytics.io",
   "image": "https://psychoanalytics.s3-us-west-1.amazonaws.com/pages/products/ejinjFr2xPKaq27lB4QCRkDHdw45ayHjYLW4YMgM.jpeg",
-  "modules": []
+  "modules": [],
+  "settings": {}
 }
