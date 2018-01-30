@@ -105,7 +105,7 @@
 
     @media (min-width: 991px) {
         #laptop {
-            margin: -110px 50px 50px 50px;
+            margin: -90px 50px 50px 50px;
         }
     }
 
