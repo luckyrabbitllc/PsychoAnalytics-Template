@@ -26,7 +26,7 @@
                         <div class="" style="padding:15px;">
                             <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/research.png" alt="Thumbnail Image"
                                  class="icon-img rounded-circle img-fluid img-raised hiddenOnMobile">
-                            <h4 class="title">Market Research</h4>
+                            <h4 class="title">Do Market Research</h4>
                             <p class="description">What topics are your customers and competitors talking about? Get insights from any website or text.</p>
                             <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/research.png" alt="Thumbnail Image"
                                  class="icon-img rounded-circle img-fluid img-raised hiddenOnDesktop">
@@ -36,7 +36,7 @@
                         <div class="" style="padding:15px;">
                             <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/create.png" alt="Thumbnail Image"
                                  class="icon-img rounded-circle img-fluid img-raised hiddenOnMobile">
-                            <h4 class="title">Create Content</h4>
+                            <h4 class="title">Create Optimized Content</h4>
                             <p class="description">Does your writing style align with your customers' values? Does your content speak to customers' pains?</p>
                             <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/create.png" alt="Thumbnail Image"
                                  class="icon-img rounded-circle img-fluid img-raised hiddenOnDesktop">
@@ -46,7 +46,7 @@
                         <div class="" style="padding:15px;">
                             <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/analyze.png" alt="Thumbnail Image"
                                  class="icon-img rounded-circle img-fluid img-raised hiddenOnMobile">
-                            <h4 class="title">Track Trends</h4>
+                            <h4 class="title">Track Content Trends</h4>
                             <p class="description">What topics are driving your traffic? Which emotions are converting visitors into customers?</p>
                             <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/analyze.png" alt="Thumbnail Image"
                                  class="icon-img rounded-circle img-fluid img-raised hiddenOnDesktop">
