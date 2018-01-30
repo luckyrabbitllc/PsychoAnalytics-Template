@@ -24,30 +24,30 @@
                     </div>
                     <div class="col-md-4">
                         <div class="" style="padding:15px;">
-                            <img src="{{$page->content()->features->feature1image}}" alt="Thumbnail Image"
+                            <img src="{{$page->content()->features->feature_1_image}}" alt="Thumbnail Image"
                                  class="icon-img rounded-circle img-fluid img-raised hiddenOnMobile"/>
-                            <h4 class="title">{{$page->content()->features->feature1title}}</h4>
-                            <p class="description">{{$page->content()->features->feature1message}}</p>
+                            <h4 class="title">{{$page->content()->features->feature_1_title}}</h4>
+                            <p class="description">{{$page->content()->features->feature_1_message}}</p>
                             <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/analyze.png" alt="Thumbnail Image"
                                  class="icon-img rounded-circle img-fluid img-raised hiddenOnDesktop"/>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="" style="padding:15px;">
-                            <img src="{{$page->content()->features->feature2image}}" alt="Thumbnail Image"
+                            <img src="{{$page->content()->features->feature_2_image}}" alt="Thumbnail Image"
                                  class="icon-img rounded-circle img-fluid img-raised hiddenOnMobile"/>
-                            <h4 class="title">{{$page->content()->features->feature2title}}</h4>
-                            <p class="description">{{$page->content()->features->feature2message}}</p>
+                            <h4 class="title">{{$page->content()->features->feature_2_title}}</h4>
+                            <p class="description">{{$page->content()->features->feature_2_message}}</p>
                             <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/analyze.png" alt="Thumbnail Image"
                                  class="icon-img rounded-circle img-fluid img-raised hiddenOnDesktop"/>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="" style="padding:15px;">
-                            <img src="{{$page->content()->features->feature3image}}" alt="Thumbnail Image"
+                            <img src="{{$page->content()->features->feature_3_image}}" alt="Thumbnail Image"
                                  class="icon-img rounded-circle img-fluid img-raised hiddenOnMobile"/>
-                            <h4 class="title">{{$page->content()->features->feature3title}}</h4>
-                            <p class="description">{{$page->content()->features->feature3message}}</p>
+                            <h4 class="title">{{$page->content()->features->feature_3_title}}</h4>
+                            <p class="description">{{$page->content()->features->feature_3_message}}</p>
                             <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/analyze.png" alt="Thumbnail Image"
                                  class="icon-img rounded-circle img-fluid img-raised hiddenOnDesktop"/>
                         </div>
