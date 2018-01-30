@@ -137,6 +137,10 @@
         transform: scale(1.06);
     }
 
+    .card.bg-gradient-purple p {
+        color:#fff !important;
+    }
+
     #pricing .btn-neutral.btn-simple {
         color: #8651ff;
         border-color: #8651ff;
