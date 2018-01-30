@@ -16,7 +16,7 @@
     p.description {
         color: #555;
         font-weight: 400;
-        text-align: left;
+        text-align: center;
     }
 
     .page-header h3.description {
