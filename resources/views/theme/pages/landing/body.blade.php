@@ -4,8 +4,8 @@
         </div>
         <div class="container">
             <div class="content-center" style="padding:15px;">
-                <h1 class="title">Read between <span style="display: inline-block;">the lines.</span></h1>
-                <h3 class="description text-center">Get deep psychological <span style="display: inline-block;">insights about your </span><span style="display: inline-block;">competitors and customers.</span></h3>
+                <h1 class="title">{!! $page->markdown($page->content()->heading->headline) !!}</h1>
+                <h3 class="description text-center">{!! $page->markdown($page->content()->heading->intro) !!}</h3>
             </div>
         </div>
     </div>
@@ -58,7 +58,7 @@
     </div>
 
     <div class="section text-center bg-gradient-orange" style="color:#fff; padding:75px 25px 50px 25px;">
-        <h3>{{$page->content()->callout->text}}</h3>
+        <h3>{!! $page->markdown($page->content()->callout->text) !!}</h3>
     </div>
     <div class="section text-center" id="pricing" style="padding:0px 25px 25px 25px !important;">
         <div class="container text-center">
