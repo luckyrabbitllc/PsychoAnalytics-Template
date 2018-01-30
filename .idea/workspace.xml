@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c171d6e4-e67c-494c-955d-05175017d509" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/theme/pages/landing/css.blade.php" afterPath="$PROJECT_DIR$/resources/views/theme/pages/landing/css.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/theme/pages/landing/body.blade.php" afterPath="$PROJECT_DIR$/resources/views/theme/pages/landing/body.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +17,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="css.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="css.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/theme/pages/landing/css.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="545">
               <caret line="131" column="41" lean-forward="false" selection-start-line="131" selection-start-column="41" selection-end-line="131" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="body.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/theme/pages/landing/body.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="134" column="35" lean-forward="false" selection-start-line="134" selection-start-column="35" selection-end-line="134" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -83,9 +93,9 @@
         <option value="$PROJECT_DIR$/resources/views/theme/pages/landing/index.html" />
         <option value="$PROJECT_DIR$/resources/views/theme/pages/landing/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/theme/pages/landing/footer.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/theme/pages/landing/body.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/theme/templates/global/menu.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/theme/pages/landing/css.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/theme/pages/landing/body.blade.php" />
       </list>
     </option>
   </component>
@@ -267,12 +277,12 @@
       <workItem from="1509613838929" duration="867000" />
       <workItem from="1509870495357" duration="6648000" />
       <workItem from="1510021060972" duration="4428000" />
-      <workItem from="1517254636895" duration="12118000" />
+      <workItem from="1517254636895" duration="12625000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26245000" />
+    <option name="totallyTimeSpent" value="26752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -439,14 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/theme/pages/landing/body.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/theme/templates/global/menu.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -467,6 +469,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="545">
           <caret line="131" column="41" lean-forward="false" selection-start-line="131" selection-start-column="41" selection-end-line="131" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/theme/pages/landing/body.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="134" column="35" lean-forward="false" selection-start-line="134" selection-start-column="35" selection-end-line="134" selection-end-column="35" />
           <folding />
         </state>
       </provider>

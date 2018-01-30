@@ -132,9 +132,9 @@
             <div class="row align-items-center text-center">
                 <div class="col-lg-12 text-center">
                     <h2>Read to get started?</h2>
-                    <button type="submit" class="btn btn-lg btn-primary btn-round bg-gradient-orange grow">Create Your
+                    <a href="https://app.psychoanalytics.io" class="btn btn-lg btn-primary btn-round bg-gradient-orange grow">Create Your
                         Account &nbsp; <i class="fa fa-caret-right"></i>
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
