@@ -30,8 +30,8 @@
       <file leaf-file-name="body.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/theme/pages/landing/body.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="134" column="35" lean-forward="false" selection-start-line="134" selection-start-column="35" selection-end-line="134" selection-end-column="35" />
+            <state relative-caret-position="515">
+              <caret line="59" column="54" lean-forward="false" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -277,12 +277,12 @@
       <workItem from="1509613838929" duration="867000" />
       <workItem from="1509870495357" duration="6648000" />
       <workItem from="1510021060972" duration="4428000" />
-      <workItem from="1517254636895" duration="12625000" />
+      <workItem from="1517254636895" duration="12821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26752000" />
+    <option name="totallyTimeSpent" value="26948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -475,8 +475,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/theme/pages/landing/body.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="134" column="35" lean-forward="false" selection-start-line="134" selection-start-column="35" selection-end-line="134" selection-end-column="35" />
+        <state relative-caret-position="515">
+          <caret line="59" column="54" lean-forward="false" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
           <folding />
         </state>
       </provider>

@@ -57,7 +57,7 @@
         </div>
     </div>
 
-    <div class="section text-center bg-gradient-purple" style="color:#fff; padding:75px 25px 50px 25px;">
+    <div class="section text-center bg-gradient-orange" style="color:#fff; padding:75px 25px 50px 25px;">
         <h3>It's not about how your customers feel about your product.<br>It's about how your product makes your customers feel about themselves.<br><br><span style="opacity:0.5;padding:0px 25px 0px 25px;">RKS Design</span></h3>
     </div>
     <div class="section text-center" id="pricing" style="padding:0px 25px 25px 25px !important;">
