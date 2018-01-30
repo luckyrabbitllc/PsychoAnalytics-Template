@@ -1,6 +1,6 @@
 <div class="wrapper" style="padding:0px;overflow: hidden;">
     <div class="page-header page-header-small" style="display: block;height:440px !important;">
-        <div id="header-image" class="page-header-image " style="float:left; background-size: cover !important; background-position: bottom !important;background-color:#000;background:url(https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/purple-green-bg.png);">
+        <div id="header-image" class="page-header-image " style="float:left; background-size: cover !important; background-position: bottom !important;background-color:#000;background:url({{$page->content()->heading->background}});">
         </div>
         <div class="container">
             <div class="content-center" style="padding:15px;">
@@ -14,42 +14,42 @@
             <div class="team">
                 <div class="row">
                     <div class="col-md-12">
-                        <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/dashboard.png"
+                        <img src="{{$page->content()->features->image}}"
                              id="laptop" class="img-raised" style="border-radius:10px;"/>
                     </div>
                     <div class="col-md-12" style="margin-bottom:0px;margin-top:25px;">
                         <h2 class="title" style="width:100%;color:#222;">
-                            Features
+                            {{$page->content()->features->headline}}
                         </h2>
                     </div>
                     <div class="col-md-4">
                         <div class="" style="padding:15px;">
-                            <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/research.png" alt="Thumbnail Image"
-                                 class="icon-img rounded-circle img-fluid img-raised hiddenOnMobile">
-                            <h4 class="title">Do Market Research</h4>
-                            <p class="description">What topics are your customers and competitors talking about? Get insights from any website or text.</p>
-                            <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/research.png" alt="Thumbnail Image"
-                                 class="icon-img rounded-circle img-fluid img-raised hiddenOnDesktop">
+                            <img src="{{$page->content()->features->feature1image}}" alt="Thumbnail Image"
+                                 class="icon-img rounded-circle img-fluid img-raised hiddenOnMobile"/>
+                            <h4 class="title">{{$page->content()->features->feature1title}}</h4>
+                            <p class="description">{{$page->content()->features->feature1message}}</p>
+                            <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/analyze.png" alt="Thumbnail Image"
+                                 class="icon-img rounded-circle img-fluid img-raised hiddenOnDesktop"/>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="" style="padding:15px;">
-                            <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/create.png" alt="Thumbnail Image"
-                                 class="icon-img rounded-circle img-fluid img-raised hiddenOnMobile">
-                            <h4 class="title">Create Optimized Content</h4>
-                            <p class="description">Does your writing style align with your customers' values? Does your content speak to customers' pains?</p>
-                            <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/create.png" alt="Thumbnail Image"
-                                 class="icon-img rounded-circle img-fluid img-raised hiddenOnDesktop">
+                            <img src="{{$page->content()->features->feature2image}}" alt="Thumbnail Image"
+                                 class="icon-img rounded-circle img-fluid img-raised hiddenOnMobile"/>
+                            <h4 class="title">{{$page->content()->features->feature2title}}</h4>
+                            <p class="description">{{$page->content()->features->feature2message}}</p>
+                            <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/analyze.png" alt="Thumbnail Image"
+                                 class="icon-img rounded-circle img-fluid img-raised hiddenOnDesktop"/>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="" style="padding:15px;">
+                            <img src="{{$page->content()->features->feature3image}}" alt="Thumbnail Image"
+                                 class="icon-img rounded-circle img-fluid img-raised hiddenOnMobile"/>
+                            <h4 class="title">{{$page->content()->features->feature3title}}</h4>
+                            <p class="description">{{$page->content()->features->feature3message}}</p>
                             <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/analyze.png" alt="Thumbnail Image"
-                                 class="icon-img rounded-circle img-fluid img-raised hiddenOnMobile">
-                            <h4 class="title">Track Content Trends</h4>
-                            <p class="description">What topics are driving your traffic? Which emotions are converting visitors into customers?</p>
-                            <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/analyze.png" alt="Thumbnail Image"
-                                 class="icon-img rounded-circle img-fluid img-raised hiddenOnDesktop">
+                                 class="icon-img rounded-circle img-fluid img-raised hiddenOnDesktop"/>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
     </div>
 
     <div class="section text-center bg-gradient-orange" style="color:#fff; padding:75px 25px 50px 25px;">
-        <h3>Marketing is not about how your customers feel about your product.<br>It's about how your product makes them feel about themselves.</h3>
+        <h3>{{$page->content()->callout->text}}</h3>
     </div>
     <div class="section text-center" id="pricing" style="padding:0px 25px 25px 25px !important;">
         <div class="container text-center">
@@ -67,20 +67,18 @@
                 </div>
                 <div class="col-md-12" align="center">
                     <div class="space-50"></div>
-                    <h2 class="title">Pricing</h2>
+                    <h2 class="title">{{$page->content()->pricing->headline}}</h2>
                     <div class="space-50"></div>
                     <div class="card-deck">
                         <div class="card grow">
                             <div class="card-header">
-                                Freelancer
+                                {!! $page->content()->pricing->option_1_title !!}
                             </div>
 
                             <div class="card-body">
-                                <h3 class="card-title" align="center">$0 <span style="font-size:50%;">/ month</span>
+                                <h3 class="card-title" align="center">${{$page->content()->pricing->option_1_cost}} <span style="font-size:50%;">/ month</span>
                                 </h3>
-                                <p class="card-text">1 User</p>
-                                <p class="card-text">100 Research Items</p>
-                                <p class="card-text">No Web Analytics</p>
+                                {!! $page->content()->pricing->option_1_description !!}
                             </div>
                             <div class="card-footer" align="center">
                                 <a href="https://app.psychoanalytics.io/"
@@ -89,15 +87,13 @@
                         </div>
                         <div class="card grow bg-gradient-purple">
                             <div class="card-header">
-                                Startup
+                                {!! $page->content()->pricing->option_2_title !!}
                             </div>
 
                             <div class="card-body">
-                                <h3 class="card-title" align="center">$99 <span style="font-size:50%;">/ month</span>
+                                <h3 class="card-title" align="center">${!! $page->content()->pricing->option_2_cost !!} <span style="font-size:50%;">/ month</span>
                                 </h3>
-                                <p class="card-text">10 Users</p>
-                                <p class="card-text">500 Research Items</p>
-                                <p class="card-text">250,000 Analytic Events</p>
+                                {!! $page->content()->pricing->option_2_description !!}
                             </div>
                             <div class="card-footer" align="center">
                                 <a href="https://app.psychoanalytics.io/"
@@ -107,15 +103,13 @@
                         </div>
                         <div class="card grow">
                             <div class="card-header">
-                                Enterprise
+                                {!! $page->content()->pricing->option_3_title !!}
                             </div>
 
                             <div class="card-body">
-                                <h3 class="card-title" align="center">$999 <span style="font-size:50%;">/ month</span>
+                                <h3 class="card-title" align="center">${!! $page->content()->pricing->option_3_cost !!} <span style="font-size:50%;">/ month</span>
                                 </h3>
-                                <p class="card-text">Unlimited Users</p>
-                                <p class="card-text">Unlimited Research Items</p>
-                                <p class="card-text">Unlimited Analytic Events</p>
+                                {!! $page->content()->pricing->option_3_description !!}
                             </div>
                             <div class="card-footer" align="center">
                                 <a href="https://app.psychoanalytics.io/"

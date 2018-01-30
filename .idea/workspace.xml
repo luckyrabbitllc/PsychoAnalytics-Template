@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c171d6e4-e67c-494c-955d-05175017d509" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/theme/pages/landing/body.blade.php" afterPath="$PROJECT_DIR$/resources/views/theme/pages/landing/body.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/theme/pages/landing/page.json" afterPath="$PROJECT_DIR$/resources/views/theme/pages/landing/page.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +21,8 @@
       <file leaf-file-name="body.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/theme/pages/landing/body.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="82" column="60" lean-forward="false" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="60" />
+            <state relative-caret-position="125">
+              <caret line="74" column="81" lean-forward="true" selection-start-line="74" selection-start-column="81" selection-end-line="74" selection-end-column="81" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -29,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="css.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/theme/pages/landing/css.blade.php">
+      <file leaf-file-name="page.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/theme/pages/landing/page.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="870">
+              <caret line="163" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="275" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -43,7 +44,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;av</find>
       <find>icon</find>
       <find>btn-primary</find>
       <find>basic</find>
@@ -73,6 +73,7 @@
       <find>&lt;nav</find>
       <find>text-al</find>
       <find>market re</find>
+      <find>$tagContent</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,13 +91,13 @@
         <option value="$PROJECT_DIR$/pages/features/scripts.blade.php" />
         <option value="$PROJECT_DIR$/templates/global/scripts.blade.php" />
         <option value="$PROJECT_DIR$/startup.json" />
-        <option value="$PROJECT_DIR$/resources/views/theme/pages/landing/page.json" />
         <option value="$PROJECT_DIR$/resources/views/theme/pages/landing/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/theme/pages/landing/index.html" />
         <option value="$PROJECT_DIR$/resources/views/theme/pages/landing/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/theme/pages/landing/footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/theme/templates/global/menu.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/theme/pages/landing/css.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/theme/pages/landing/page.json" />
         <option value="$PROJECT_DIR$/resources/views/theme/pages/landing/body.blade.php" />
       </list>
     </option>
@@ -279,12 +280,12 @@
       <workItem from="1509613838929" duration="867000" />
       <workItem from="1509870495357" duration="6648000" />
       <workItem from="1510021060972" duration="4428000" />
-      <workItem from="1517254636895" duration="14960000" />
+      <workItem from="1517254636895" duration="17193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29087000" />
+    <option name="totallyTimeSpent" value="31320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -393,14 +394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/theme/pages/landing/page.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="179" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="179" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/theme/pages/landing/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -475,10 +468,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/theme/pages/landing/page.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="163" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="275" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/theme/pages/landing/body.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="82" column="60" lean-forward="false" selection-start-line="82" selection-start-column="60" selection-end-line="82" selection-end-column="60" />
+        <state relative-caret-position="125">
+          <caret line="74" column="81" lean-forward="true" selection-start-line="74" selection-start-column="81" selection-end-line="74" selection-end-column="81" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
