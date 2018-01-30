@@ -80,7 +80,7 @@
                                 </h3>
                                 <p class="card-text">1 User</p>
                                 <p class="card-text">100 Research Items</p>
-                                <p class="card-text">No web analytics</p>
+                                <p class="card-text">No Web Analytics</p>
                             </div>
                             <div class="card-footer" align="center">
                                 <a href="https://app.psychoanalytics.io/"
@@ -95,9 +95,9 @@
                             <div class="card-body">
                                 <h3 class="card-title" align="center">$99 <span style="font-size:50%;">/ month</span>
                                 </h3>
-                                <p class="card-text">1 User</p>
+                                <p class="card-text">10 Users</p>
                                 <p class="card-text">500 Research Items</p>
-                                <p class="card-text">250,000 web analytic events</p>
+                                <p class="card-text">250,000 Analytic Events</p>
                             </div>
                             <div class="card-footer" align="center">
                                 <a href="https://app.psychoanalytics.io/"
@@ -113,9 +113,9 @@
                             <div class="card-body">
                                 <h3 class="card-title" align="center">$999 <span style="font-size:50%;">/ month</span>
                                 </h3>
-                                <p class="card-text">1 User</p>
+                                <p class="card-text">Unlimited Users</p>
                                 <p class="card-text">Unlimited Research Items</p>
-                                <p class="card-text">1,000,000+ web analytic events</p>
+                                <p class="card-text">Unlimited Analytic Events</p>
                             </div>
                             <div class="card-footer" align="center">
                                 <a href="https://app.psychoanalytics.io/"
