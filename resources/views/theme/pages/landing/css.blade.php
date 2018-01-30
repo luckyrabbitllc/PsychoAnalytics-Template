@@ -127,6 +127,10 @@
             font-size: 21px;
             padding: 0px 15px;
         }
+
+        .page-header {
+            min-height: 440px !important;
+        }
     }
 
     .grow {
