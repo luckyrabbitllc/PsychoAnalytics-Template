@@ -1,6 +1,6 @@
 <div class="wrapper" style="padding:0px;overflow: hidden;">
     <div class="page-header page-header-small" style="display: block;height:440px !important;">
-        <div class="page-header-image " style="float:left; background-size: cover !important; background-position: bottom !important;background-color:#000;background:url(https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/purple-green-bg.png);">
+        <div id="header-image" class="page-header-image " style="float:left; background-size: cover !important; background-position: bottom !important;background-color:#000;background:url(https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/purple-green-bg.png);">
         </div>
         <div class="container">
             <div class="content-center" style="padding:15px;">
