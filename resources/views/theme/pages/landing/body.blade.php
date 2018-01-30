@@ -27,7 +27,7 @@
                             <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/research.png" alt="Thumbnail Image"
                                  class="icon-img rounded-circle img-fluid img-raised">
                             <h4 class="title">Market Research</h4>
-                            <p class="description">What topics do your customers like and dislike? What topics are your competitors highlighting in their marketing? Input any URL or text and get actionable insights.</p>
+                            <p class="description">What topics do your customers and competitors talking about? Get actionable insights from any website or text.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
