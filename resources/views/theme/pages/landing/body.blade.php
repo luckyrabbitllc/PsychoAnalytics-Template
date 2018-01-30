@@ -27,9 +27,7 @@
                             <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/research.png" alt="Thumbnail Image"
                                  class="icon-img rounded-circle img-fluid img-raised">
                             <h4 class="title">Market Research</h4>
-                            <p class="description">You can write here details about one of your team members. You can
-                                give more details about what they do. Feel free to add some
-                                for people to be able to follow them outside the site.</p>
+                            <p class="description">What topics do your customers like and dislike? What topics are your competitors highlighting in their marketing? Input any URL or text and get actionable insights.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -37,9 +35,7 @@
                             <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/create.png" alt="Thumbnail Image"
                                  class="icon-img rounded-circle img-fluid img-raised">
                             <h4 class="title">Create Content</h4>
-                            <p class="description">You can write here details about one of your team members. You can
-                                give more details about what they do. Feel free to add some
-                                for people to be able to follow them outside the site.</p>
+                            <p class="description">Does your writing style align with your customers' values? Does your content speak to customers' pains?</p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -47,9 +43,7 @@
                             <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/analyze.png" alt="Thumbnail Image"
                                  class="icon-img rounded-circle img-fluid img-raised">
                             <h4 class="title">Track Trends</h4>
-                            <p class="description">You can write here details about one of your team members. You can
-                                give more details about what they do. Feel free to add some
-                                for people to be able to follow them outside the site.</p>
+                            <p class="description">What topics are driving your traffic? Which emotions are converting visitors into customers?</p>
                         </div>
                     </div>
                 </div>
