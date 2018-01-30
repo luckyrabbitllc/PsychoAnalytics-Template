@@ -72,13 +72,13 @@
                     <div class="card-deck">
                         <div class="card grow">
                             <div class="card-header">
-                                {!! $page->content()->pricing->option_1_title !!}
+                                {!! $page->markdown($page->content()->pricing->option_1_title) !!}
                             </div>
 
                             <div class="card-body">
                                 <h3 class="card-title" align="center">${{$page->content()->pricing->option_1_cost}} <span style="font-size:50%;">/ month</span>
                                 </h3>
-                                {!! $page->content()->pricing->option_1_description !!}
+                                {!! $page->markdown($page->content()->pricing->option_1_description) !!}
                             </div>
                             <div class="card-footer" align="center">
                                 <a href="https://app.psychoanalytics.io/"
@@ -87,13 +87,13 @@
                         </div>
                         <div class="card grow bg-gradient-purple">
                             <div class="card-header">
-                                {!! $page->content()->pricing->option_2_title !!}
+                                {!! $page->markdown($page->content()->pricing->option_2_title) !!}
                             </div>
 
                             <div class="card-body">
                                 <h3 class="card-title" align="center">${!! $page->content()->pricing->option_2_cost !!} <span style="font-size:50%;">/ month</span>
                                 </h3>
-                                {!! $page->content()->pricing->option_2_description !!}
+                                {!! $page->markdown($page->content()->pricing->option_2_description) !!}
                             </div>
                             <div class="card-footer" align="center">
                                 <a href="https://app.psychoanalytics.io/"
@@ -103,13 +103,13 @@
                         </div>
                         <div class="card grow">
                             <div class="card-header">
-                                {!! $page->content()->pricing->option_3_title !!}
+                                {!! $page->markdown($page->content()->pricing->option_3_title) !!}
                             </div>
 
                             <div class="card-body">
                                 <h3 class="card-title" align="center">${!! $page->content()->pricing->option_3_cost !!} <span style="font-size:50%;">/ month</span>
                                 </h3>
-                                {!! $page->content()->pricing->option_3_description !!}
+                                {!! $page->markdown($page->content()->pricing->option_3_description) !!}
                             </div>
                             <div class="card-footer" align="center">
                                 <a href="https://app.psychoanalytics.io/"
