@@ -24,7 +24,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="" style="padding:15px;">
-                            <img src="../../../../assets/img/pages/landing/research.png" alt="Thumbnail Image"
+                            <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/research.png" alt="Thumbnail Image"
                                  class="icon-img rounded-circle img-fluid img-raised">
                             <h4 class="title">Market Research</h4>
                             <p class="description">You can write here details about one of your team members. You can
@@ -34,7 +34,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="" style="padding:15px;">
-                            <img src="../../../../assets/img/pages/landing/create.png" alt="Thumbnail Image"
+                            <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/create.png" alt="Thumbnail Image"
                                  class="icon-img rounded-circle img-fluid img-raised">
                             <h4 class="title">Create Content</h4>
                             <p class="description">You can write here details about one of your team members. You can
@@ -44,7 +44,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="" style="padding:15px;">
-                            <img src="../../../../assets/img/pages/landing/analyze.png" alt="Thumbnail Image"
+                            <img src="https://s3-us-west-1.amazonaws.com/psychoanalytics/pages/landing/analyze.png" alt="Thumbnail Image"
                                  class="icon-img rounded-circle img-fluid img-raised">
                             <h4 class="title">Track Trends</h4>
                             <p class="description">You can write here details about one of your team members. You can
