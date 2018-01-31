@@ -25,31 +25,25 @@
                     <div class="col-md-4">
                         <div class="" style="padding:15px;">
                             <img src="{{$page->content()->features->feature_1_image}}" alt="Thumbnail Image"
-                                 class="icon-img rounded-circle img-fluid img-raised hiddenOnMobile"/>
+                                 class="icon-img rounded-circle img-fluid img-raised "/>
                             <h4 class="title">{{$page->content()->features->feature_1_title}}</h4>
                             <p class="description">{{$page->content()->features->feature_1_message}}</p>
-                            <img src="{{$page->content()->features->feature_1_image}}" alt="Thumbnail Image"
-                                 class="icon-img rounded-circle img-fluid img-raised hiddenOnDesktop"/>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="" style="padding:15px;">
                             <img src="{{$page->content()->features->feature_2_image}}" alt="Thumbnail Image"
-                                 class="icon-img rounded-circle img-fluid img-raised hiddenOnMobile"/>
+                                 class="icon-img rounded-circle img-fluid img-raised "/>
                             <h4 class="title">{{$page->content()->features->feature_2_title}}</h4>
                             <p class="description">{{$page->content()->features->feature_2_message}}</p>
-                            <img src="{{$page->content()->features->feature_2_image}}" alt="Thumbnail Image"
-                                 class="icon-img rounded-circle img-fluid img-raised hiddenOnDesktop"/>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="" style="padding:15px;">
                             <img src="{{$page->content()->features->feature_3_image}}" alt="Thumbnail Image"
-                                 class="icon-img rounded-circle img-fluid img-raised hiddenOnMobile"/>
+                                 class="icon-img rounded-circle img-fluid img-raised"/>
                             <h4 class="title">{{$page->content()->features->feature_3_title}}</h4>
                             <p class="description">{{$page->content()->features->feature_3_message}}</p>
-                            <img src="{{$page->content()->features->feature_3_image}}" alt="Thumbnail Image"
-                                 class="icon-img rounded-circle img-fluid img-raised hiddenOnDesktop"/>
                         </div>
                     </div>
                 </div>
